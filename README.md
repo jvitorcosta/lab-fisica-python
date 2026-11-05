@@ -1,8 +1,23 @@
-# Physics lab in Python 👨🏾‍🔬 💡
+# Physics lab in Python
 
-Analyses from a university physics lab course (2021), done with my classmate Júlio César. Each
-notebook has the lab's measurements typed in, so it runs on its own. The notebooks are in
-Portuguese.
+Data analysis for a university physics lab course: I-V curves, Ohm's law and Lissajous figures.
+
+**Status:** coursework (2021)
+
+## Why I built it
+
+This was the lab work for my physics course. I did it with my classmate Júlio César, so it
+is shared work, and he is credited as a co-author. The notebooks are in Portuguese.
+
+## Quick start
+
+Each notebook has the lab's measurements typed in, so it runs on its own:
+
+```sh
+uv run --with pandas --with numpy --with scipy --with scikit-learn --with matplotlib --with jupyter jupyter lab
+```
+
+## What's in it
 
 | Notebook | What it does |
 | --- | --- |
@@ -10,8 +25,10 @@ Portuguese.
 | [`experimento_2/`](experimento_2) | **Ohm's law and resistivity.** Voltage against current for several wires, each wire's resistance with its uncertainty, and the material's resistivity. |
 | [`figuras_lissajous/`](figuras_lissajous) | **Lissajous figures.** Simple harmonic motion and the figures formed by combining two perpendicular oscillations. |
 
-## Run it
+## Credits
 
-```sh
-uv run --with pandas --with numpy --with scipy --with scikit-learn --with matplotlib --with jupyter jupyter lab
-```
+Done together with Júlio César, my classmate in the course.
+
+## License
+
+MIT, see [LICENSE](LICENSE). The copyright line names me only; this was done with Júlio César.
